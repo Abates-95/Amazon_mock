@@ -1,0 +1,42 @@
+body{
+    margin-top: 10%;
+    text-align: center;
+}
+
+h1{
+    margin-right: 170px;
+}
+
+#email{
+    margin-top: 5px;
+    padding-right: 100px;
+}
+
+#email1{
+    margin-right: 60px;
+}
+
+#password{
+    margin-top: 5px;
+    padding-right: 100px;
+}
+
+#pass{
+    margin-right: 70px;
+}
+
+#help{
+    margin-right: 160px;
+    padding: 10px;
+}
+
+button{
+    background-color: yellow;
+    border-color: orange;
+    width: 275px;
+    height: 26px;
+}
+
+#pass{
+    margin-left: 30px;
+}
