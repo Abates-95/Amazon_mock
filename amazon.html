@@ -8,14 +8,37 @@
     <title>Amazon Sign In</title>
 </head>
 <body>
-    <form>
-        <h1>Sign in</h1>
-        <label id="email1">Email(phone or mobile accounts)</label><br>
-        <input type="text" id="email" placeholder="Enter Email"><br><br>
-        <label id="pass">Password</label><a id="lost" href="https://www.amazon.com/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=900&pageId=usflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&prevRID=N7PQQ7ED603X8BVW3V3M&openid.assoc_handle=usflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Forgot Password</a><br>
-        <input type="text" id="password" placeholder="Enter Password"><br><br>
-        <button>Continue</button><br><br>
-        <a id="help" href="https://www.amazon.com/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"><span>&#8250;</span>Need Help?</a>
-    </form>
+    <div class="flexbox-container">
+        <div class="flexbox-item">
+            <form>
+                <h1>Sign in</h1>
+                <label id="email1">Email(phone or mobile accounts)</label><br>
+                <input type="text" id="email" placeholder="Enter Email"><br><br>
+                <label id="pass">Password</label><a id="lost" href="https://www.amazon.com/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=900&pageId=usflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&prevRID=N7PQQ7ED603X8BVW3V3M&openid.assoc_handle=usflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Forgot Password</a><br>
+                <input type="text" id="password" placeholder="Enter Password"><br><br>
+                <button>Continue</button><br><br>
+                <a id="help" href="https://www.amazon.com/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"><span>&#8250;</span>Need Help?</a>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h3 class="hr-lines"> New To Amazon? </h3>
+    </div>
+    <button id="create">Create Your Amazon Account</button>
+    
+    <!-- Horizontal line -->
+    <div class="hline">
+        <h1></h1>
+    </div>
+    
+    <div class="flexbox-container">
+        <div class="flex-box" id="cond">
+            <div><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM">Conditions of use</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ">Privacy Policy</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GSD587LKW72HKU2V">Help</a>
+            </div>
+        </div>
+    </div>
+    <footer id="foot">&copy;1996-2020 Amazon.com,inc or it's affiliates</footer>
 </body>
 </html>

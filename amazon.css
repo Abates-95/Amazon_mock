@@ -1,42 +1,104 @@
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.flexbox-item{
+    height: 280px;
+    width: 350px;
+    border: 3px solid lightgrey;
+    border-radius: 3px;
+    
+}
+
 body{
-    margin-top: 10%;
+    margin-top: 3%;
     text-align: center;
 }
 
 h1{
-    margin-right: 170px;
+    margin-right: 225px;
+}
+
+h3{
+    color: darkgray;
 }
 
 #email{
     margin-top: 5px;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 #email1{
-    margin-right: 60px;
+    margin-right: 110px;
 }
 
 #password{
     margin-top: 5px;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 #pass{
-    margin-right: 70px;
+    margin-right: 125px;
+    margin-left: 30px;
 }
 
 #help{
-    margin-right: 160px;
-    padding: 10px;
+    margin-right: 190px;
 }
 
 button{
     background-color: yellow;
     border-color: orange;
-    width: 275px;
+    width: 330px;
     height: 26px;
 }
 
-#pass{
-    margin-left: 30px;
+#create{
+    background-color: lightgray;
+    border-color: darkgray;
+}
+
+#cond{
+display: flex;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.hline{
+    border-bottom: 3px solid rgb(80, 80, 78);
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  
+.hr-lines:before{
+    content:"";
+    height: 2px;
+    width: 100px;
+    background: darkgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+  
+.hr-lines:after{
+    content:"";
+    height: 2px;
+    width: 100px;
+    background: darkgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
